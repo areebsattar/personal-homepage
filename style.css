@@ -1,0 +1,76 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+*{
+  margin: 0;
+}
+body {
+  display:flex
+    margin: 0;
+  height: 100%;
+}
+h1{
+  background: #353535;
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 40px;
+}
+.c-site-header{
+  text-align: right;
+  font-size: 30px;
+  background: #3c6e71;
+  padding: 30px;
+
+}
+
+li{
+  display: flex;
+  text-align: left;
+  color: #D9D9D9;
+  margin: 25px 30px;
+  padding: 5px;
+
+}
+#mypic{
+  width: 500px;
+  float: right;
+}
+main{
+  background-image: url("https://i.imgur.com/0VXqxjW.jpg");
+  background-size: cover;
+  filter: blur(1px);
+  padding: 850px;
+  text-align: top;
+
+}
+
+#aboutme-text{
+
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 0;
+  top: 0;
+  text-shadow: 0px 0px 5px blue;
+}
+
+.c-site-footer{
+  display: flex;
+  flex-direction: space between;
+  justify-content: center;
+  background: #3c6e71;
+  padding: 50px 900px;
+
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
