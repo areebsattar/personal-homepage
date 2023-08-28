@@ -26,9 +26,11 @@ h1 {
   width: 100%;
   margin: 0; 
   word-wrap: break-word;
+  text-align: center;
 }
 h2, h3{
   word-wrap: break-word;
+  text-align: center;
 }
 header.c-site-header, footer.c-site-footer {
   width: 100%;
@@ -56,7 +58,7 @@ main{
   padding: 300px;
 }
 #mytext {
-  font-size: 1rem;
+  font-size: 20px;
   line-height: 1.6;
   padding: 20px;
   text-align: center;
