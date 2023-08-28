@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
   background-color: #f2edde;
 }
 h1 {
@@ -54,7 +53,8 @@ main{
   padding: 300px;
 }
 #mytext {
-  font-size: 18px;
+  font-size: 1rem;
+  line-height: 1.6;
   padding: 20px;
   text-align: center;
 }
