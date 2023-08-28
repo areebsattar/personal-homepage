@@ -29,9 +29,8 @@ h1{
 
 }
 
-li{
-  display: flex;
-  text-align: left;
+a{
+  text-align: inline;
   color: #D9D9D9;
   margin: 25px 30px;
   padding: 5px;
@@ -63,16 +62,9 @@ main{
 .c-site-footer{
   background: #3c6e71;
   color: azure;
-  font-size: 25px;
+  font-size: 50px;
   height: 100%;
   flex-direction: row;
-}
-#arang-kel{
-  width: 500px;
-  height: 500px;
-  border: 5px solid #353540;
-  padding: 5px 5px;
-  border-radius: 5px;
 }
 #dice-game{
   background: #353540;
@@ -96,13 +88,22 @@ main{
   text-decoration: wavy;
   font-size: 15px;
 }
+#arang-kel{
+  width: 800px;
+  height: 650px;
+  border: 5px solid #353540;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
 #areebsob{
-  width: 300px;
-  height: 250px;
+  width: 420px;
+  height: 350px;
   border: 5px solid #353540;
   padding: 5px 5px;
   border-radius: 5px;
 }
 #areebiv{
   display: inline-flex;
+  position: relative;
+  padding: 50px 25px;
 }
