@@ -15,16 +15,17 @@ body {
   flex-direction: column;
 }
 h1{
-  background: #353535;
+  background: #353540;
   color: #FFFFFF;
   font-size: 50px;
   padding: 40px;
 }
 .c-site-header{
-  text-align: right;
-  font-size: 30px;
   background: #3c6e71;
-  padding: 30px;
+  color: azure;
+  font-size: 25px;
+  height: 100%;
+  flex-direction: row;
 
 }
 
@@ -45,32 +46,51 @@ main{
   background-size: cover; */
   filter: blur(1px);
   padding: 300px;
-  text-align: top;
-
 }
 
 #aboutme-text{
 
   z-index: 100;
   position: absolute;
-  color: white;
+  text-align: left;
+  color: rgba(30, 151, 129, 0.93);
   font-size: 24px;
-  font-weight: bold;
+  font-weight: lighter;
   left: 0;
   top: 0;
-  text-shadow: 0px 0px 5px blue;
 }
 
 .c-site-footer{
-  display: flex;
-  flex-direction: space between;
-  justify-content: center;
   background: #3c6e71;
-  padding: 50px 900px;
-
+  color: azure;
+  font-size: 25px;
+  height: 100%;
+  flex-direction: row;
 }
 #arang-kel{
   width: 500px;
   height: 500px;
   padding: auto;
+}
+#dice-game{
+  background: #353540;
+  color: #FFFFFF;
+  font-size: 50px;
+  padding: 40px;
+}
+#button_roll, #button_remove, #button_restart{
+  background-color: #CACFD2;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 15px;
+}
+#acc{
+  background-color: #CACFD2;
+  border: none;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: wavy;
+  font-size: 15px;
 }
