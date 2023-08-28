@@ -19,11 +19,13 @@ body {
   min-height: 100vh;
   background-color: #f4f4f4;
 }
-h1{
-  background: #353540;
+h1 {
+  background-color: #353540;
   color: #FFFFFF;
   font-size: 50px;
   padding: 40px;
+  width: 100%;
+  margin: 0; 
 }
 header.c-site-header, footer.c-site-footer {
   width: 100%;
