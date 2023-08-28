@@ -64,6 +64,9 @@ main{
   text-align: center;
   word-wrap: break-word;
 }
+p, #mytext {
+  font-size: 0.9rem; 
+  line-height: 1.5; 
 #aboutme-text{
 
   z-index: 100;
